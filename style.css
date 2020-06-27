@@ -1,0 +1,52 @@
+.card{
+    width: 60%;
+    min-width: 400px;
+    background-color: rgba(185,185,207,1.00);
+    margin: 20px auto 20px auto;
+    padding-top: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    border-style: ridge;
+
+}
+
+.pic{
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 162px;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+	
+	
+}
+
+.icon{
+	width: 50px;
+	height: auto;
+	vertical-align: middle;
+}
+p{
+	display: inline-block;
+	padding: 10px;
+	min-width: 360px;
+}
+.content{
+	text-align: center;
+	
+}
+
+body{
+    background-color: rgba(194,194,240,1.00);
+}
+button{
+    background-color: rgba(140,140,173,1.00);
+    border-radius: 7px;
+    border: none;
+    margin: 5px 0 0 0;
+    color: rgba(203,203,215,1.00);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 20px;
+    opacity: 1;
+}
