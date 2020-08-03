@@ -1,7 +1,7 @@
 .card{
     width: 60%;
     min-width: 400px;
-    background-color: rgba(185,185,207,1.00);
+    background-color: white;
     margin: 20px auto 20px auto;
     padding-top: 9px;
     padding-right: 9px;
@@ -14,16 +14,17 @@
 .pic{
     width: 200px;
     height: auto;
-    margin: 20px;
-    border-radius: 162px;
-    border-collapse: separate;
+  
+    border-radius: 20px;
+
     border-spacing: 5px 5px;
-	
-	
+
+
 }
 
 .icon{
-	width: 50px;
+ 
+	width: 30px;
 	height: auto;
 	vertical-align: middle;
 }
@@ -34,19 +35,26 @@ p{
 }
 .content{
 	text-align: center;
-	
+  width: 100%;
+
 }
 
 body{
-    background-color: rgba(194,194,240,1.00);
+    background-color: lightsteelblue;
 }
 button{
-    background-color: rgba(140,140,173,1.00);
+   
+    display: inline-block;
+    height: 100px;
+    background-color:steelblue;
     border-radius: 7px;
     border: none;
     margin: 5px 0 0 0;
-    color: rgba(203,203,215,1.00);
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-    font-size: 20px;
+    color: white;
+    font-family: helvetica, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: medium;;
     opacity: 1;
+    padding: 10px;
+    max-width: 350px;
 }
+
